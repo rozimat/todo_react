@@ -11,13 +11,15 @@ body{
 }
 .App{
   width: 800px;
-  height: 488px;
+  height: auto;
   background-color: #000;
   padding: 24px 34px;
   color: #fff;
   display: flex;
   flex-direction: column;
-  
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
 
 }

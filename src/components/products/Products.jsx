@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import fakeapia from "../../dummy-fake-api.json";
 import "./Products.css";
 
-function Products() {
+function Products({fakeapia}) {
   const [ fakeApi, setFakeApi ] = useState(fakeapia);
 
   return (
